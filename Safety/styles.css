@@ -1,0 +1,68 @@
+body {
+    background-color: #F9F9F9;
+  }
+
+  h1 {
+    color: #58AAFF;
+    font-weight:bold;
+    font-family:'Segoe UI';
+    position: relative;
+    left: 200px;
+    top: 20px;
+
+  }
+
+  h3{
+    color: #707070;
+    font-weight:bold;
+    font-family:'Segoe UI';
+    position: relative;
+    left: 250px;
+    top: 30px;
+
+
+  }
+
+  h6{
+    color: #707070;
+    font-weight:bold;
+    font-family:'Segoe UI';
+    position: relative;
+    left: 800px;
+    top: 50px;
+
+  }
+
+ .btn{
+     background-color:#58AAFF;
+     border: 2px;
+     text-align: center;  
+     color:#F9F9F9;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: bold;
+     position: relative;
+     left: 550px;
+     top: 30px;
+}
+.form-control{
+    position: relative;
+    left: 250px;
+    top: 30px;
+    width: 300%;
+}
+
+
+.form-check-input{
+    position: relative;
+    left:  910px;
+    top: 22px;
+}
+
+.form-select{
+    position: relative;
+    left: 250px;
+    top: 40px;
+    width: 300%;
+}
+
+
