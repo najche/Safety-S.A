@@ -6,10 +6,7 @@ body {
     color: #58AAFF;
     font-weight:bold;
     font-family:'Segoe UI';
-    position: relative;
-    left: 200px;
-    top: 20px;
-
+    margin-left: 100px;
   }
 
   h3{
@@ -33,7 +30,7 @@ body {
 
   }
 
- .btn{
+ .btn-customized{
      background-color:#58AAFF;
      border: 2px;
      text-align: center;  
@@ -44,7 +41,7 @@ body {
      left: 550px;
      top: 30px;
 }
-.form-control{
+.form-control-customized{
     position: relative;
     left: 250px;
     top: 30px;
@@ -63,6 +60,69 @@ body {
     left: 250px;
     top: 40px;
     width: 300%;
+}
+
+.navbar-logo{
+  background-color: #F9F9F9;
+  margin-left: -12px;
+}
+
+.navbar-customized{
+  background-color: #007BFF; 
+  padding:0%;
+  margin-left: 100px;
+  transition: margin-left .5s;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  background-color: #007BFF;
+  position: fixed;
+  width: 100px;
+  height: 100%;
+  overflow: auto;
+  display:flex;
+  justify-content: center;
+}
+
+.sidebar::-webkit-scrollbar{
+  display: none;
+}
+
+.menu-icon{
+  position: fixed;
+  font-size: 60px;
+  color: #F9F9F9;
+  width: 100px;
+  text-align: center;
+  background-color: #007BFF;
+}
+
+.menu-icon:hover{
+  color: #303030;
+}
+
+.menu-items{
+  padding-top: 70%;
+  margin-left: 20px;
+}
+
+.menu-item{
+  font-size: 16px;
+  color: #F9F9F9;
+  margin-bottom: 25%;
+}
+
+.menu-item:hover{
+  color: #303030;
+  cursor: pointer;
+}
+
+.content{
+  margin-left: 100px;
+  padding: 10px;
+  transition: margin-left .5s;
 }
 
 
