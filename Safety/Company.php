@@ -1,6 +1,5 @@
 <?php include 'conexion.php'; ?>
-//esto es una prueba
-
+//Prueba Dos para Sonarqube
 
 
         <h1>Add company</h1>
