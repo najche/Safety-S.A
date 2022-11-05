@@ -18,20 +18,21 @@ include 'menu.php';
     <link rel="stylesheet" href ="styles.css">
 </head> 
     <body>
-    <h1>Add Instructor</h1>
+    <h1>Add Instructor (solo es una prueba)</h1>
         <form action = "insertinstruc.php" method ="post" class="form-registrer">
             <div class="row g-3 align-items-center">
                 <div class="col-auto">    
                     <p>
-                      <h3></h3><input type = "text"name="firtsname" placeholder ="*First Name" class="form-control"></h3>
+                      <h3></h3><input type = "text"name="firtsname" placeholder ="*First Name" class="form-control" required> </h3>
                     </p>
                     <p>
-                        <h3></h3><input  type = "text" name="lastname" placeholder ="*Last Name" class="form-control"></h3>
+                        <h3></h3><input  type = "text" name="lastname" placeholder ="*Last Name" class="form-control" required></h3>
                     </p>
                         <h6>Active:</h3><input  type = "checkbox" name="status" class="form-check-input" >
                 </div>   
             </div>        
             <input type ="submit" value = "Submit" class ="btn"> 
+            <img src="linea.png" class="img">
         </form>
     <?php
 ?>
